@@ -11,14 +11,31 @@
     float: left;
 }
 
-.container-menu ul li a {
-    padding: 0 40px;
-    font-size: 20px; 
+.label-menu {
+    padding: 10px 35px;
+    font-size: 17px; 
     color: antiquewhite;   
     font-family: "Franklin Gothic Medium";
+    background-image: linear-gradient(to left,
+    transparent,
+    transparent 50%,
+    #3a5563 50%,
+    #3a5563);
+    background-position: 100% 0;
+    background-size: 200% 100%;
+    transition: all .25s ease-in;
+    border-radius: 100px;
 }
 
-.container-menu ul li a:hover {
-    color: #ffffff;
-    text-decoration: underline;
+.label-menu:hover {
+    background-position: 0 0;
+}
+
+.container-menu img {
+    max-width: 100px;
+}
+
+.container-menu img:hover {
+    box-shadow: 0 15px 20px #3a5563;
+    transform: translateY(-3px);
 }

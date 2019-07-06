@@ -1,18 +1,8 @@
 .header {
     display: flex;
     justify-content: space-between;
-    width: calc(100%-15px);
-    height: 120px;
     align-items: center;
     background-color: #47697a;
-}
-
-.header-logo {
-    margin-top: 10px;
-    margin-left: 10px;
-    width: 100px;
-    height: 100px;
-    transition: all .5s ease-in-out;
 }
 
 .left-header-info {
@@ -26,15 +16,17 @@
     font-size: 15px;
     background-color: #cc574d;
     border: none;
-    border-radius: 5px;
+    border-radius: 30px;
     color: antiquewhite;   
     font-family: "Franklin Gothic Medium";
     cursor: pointer;
 }
 
 .header button:hover {
-    background-color: antiquewhite;   
-    color: rgba(0, 0, 0, 0.65); 
+    background: antiquewhite;
+    box-shadow: 0 15px 20px #3a5563;
+    color: rgba(0, 0, 0, 0.65);
+    transform: translateY(-3px);
 }
 
 .link-btn-header {

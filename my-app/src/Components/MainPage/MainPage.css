@@ -1,21 +1,15 @@
-@font-face {
-    font-family: "Pump Cyrillic";
-    src: url("./../../fonts/main.otf") format("opentype");
-}
 
-.first-block {
-    font-family: "Franklin Gothic Medium";
-    margin-top: 10px;
-    font-size: 25px;
-    width: 50%;
-    text-align: center;
-    display: block;
+
+.block-start-info {
+    width: 80%;
+    margin-top: 7%;    
 }
 
 .main-container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: "Franklin Gothic Medium";        
 }
 
 .img-reg {
@@ -29,12 +23,11 @@
 .reg-btn {
     width: 100%;
     height: 50px;
-    font-family: "Pump Cyrillic";
     font-size: 20px;
     background-color: #cc574d;
     color: antiquewhite;   
     border: none;
-    border-radius: 5px;
+    border-radius: 30px;
     cursor: pointer;
 }
 .reg-btn-link {
@@ -45,34 +38,103 @@
 }
 
 .reg-btn:hover {
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2);
-    background-color: #d0c9af;
-    color: rgba(0, 0, 0, 0.65);   
+    background: antiquewhite;
+    color: rgba(0, 0, 0, 0.65);
+    transform: translateY(-3px);  
 }
 
-.table-info {
-    margin-top: -20px;
-    max-width: 700px;    
-}
-
-.picture-table {
-    max-width: 80%;
-}
-
-.label-tbl {
-    font-family: "Pump Cyrillic";
-    font-size: 20px;
-}
-
-td {
-    text-align: center;
-}
 
 .header-label-tbl {
     margin-top: 30px;
-    font-family: "Pump Cyrillic";
     font-size: 50px;
     text-align: center;
+}
+
+.main-container h1 {   
+    font-size: 50px;
+}
+
+.main-container h2 {  
+    font-size: 23px;
+    margin-top: -20px; 
+}
+
+.main-container .block-start-info ul {
+    list-style-image: url("./../../images/velo.png");
+}
+
+.main-container .block-start-info li {
+    padding-left: 2px;
+    padding-bottom: 2px;
+    font-size: 17px;
+}
+
+.block-start-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.block-start-info img {
+    margin-left: 15px;
+    width: 70%;
+}
+
+.block-start-info img:hover {
+    margin-left: 100px;
+    transition: .65s;
+}
+
+.info-statistics {
+    padding-top: 40px;
+    width: 80%;
+}
+
+.info-statistics ul {
+    list-style: none;
+}
+
+.info-statistics ul li {
+    float: left;
+    width: 20%;
+}
+.part-of-statistics {
+    align-content: center;
+    float: none;
+}
+
+.fact-of-statistics {
+    border-bottom: 1px solid  rgba(0, 0, 0, 0.65);
+    font-size: 20px;
+}
+
+.second-block {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:  #d0c9af;
+}
+
+.third-block {
+    margin-top: 20px;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.third-block img {
+    margin-left: 10px;
+    max-width: 60%;
+}
+
+.part-map {
+    width: 19%;
+    margin: 0px;
+}
+
+.parts-map {
+    width: 100%;
 }
