@@ -1,0 +1,24 @@
+.container-menu {
+    margin-top: 11px;
+}
+
+.container-menu ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.container-menu ul li {
+    float: left;
+}
+
+.container-menu ul li a {
+    padding: 0 40px;
+    font-size: 20px; 
+    color: antiquewhite;   
+    font-family: "Franklin Gothic Medium";
+}
+
+.container-menu ul li a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}

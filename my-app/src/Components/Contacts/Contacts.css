@@ -1,0 +1,44 @@
+.contacts-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacts-container h1 {
+    margin: 10px;
+    font-family: "Franklin Gothic Medium";
+    color: #4a4f4c;
+}
+.contacts-container .team {
+    max-width: 60%;
+    margin: 10px;
+    border: 10px solid #d0c9af; 
+}
+
+.contacts-container .info-contacts {
+    display: flex;
+    justify-content: space-between;
+    width: 58%;
+}
+.contacts-container h3 {
+    margin: -1px;
+}
+
+.social-icons img {
+    max-width: 20px;
+    margin: 10px;
+}
+
+.social-icons .label-url {
+    float: left;
+    font-family: "Franklin Gothic Medium";
+    color: #4a4f4c;
+}
+
+.manager-info {
+    margin-top: 10px;
+}
+
+.contacts-container a:hover {
+    color: #000000;
+}

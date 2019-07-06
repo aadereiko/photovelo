@@ -1,0 +1,7 @@
+.main-content {
+    background-color: #f7f1d8;
+}
+
+.not-footer {
+    min-height: calc(100vh - 45px);
+}
